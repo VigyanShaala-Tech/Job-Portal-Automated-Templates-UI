@@ -1,4 +1,4 @@
-# VigyanShaala application
+# UI of Job Portal & Automated templates
 
 This application has 2 features called Job Portal and Template Generation
 
