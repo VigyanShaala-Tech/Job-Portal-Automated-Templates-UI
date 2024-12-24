@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  react-app:
+    image: react-app:latest
+    container_name: react-app-container
+    ports:
+      - "3000:80"
+    environment:
+      - REACT_APP_API_URL=http://dev.vigyanshaala.in/api
+      - REACT_APP_ENV=development
